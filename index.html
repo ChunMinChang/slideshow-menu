@@ -1,0 +1,149 @@
+﻿<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Slideshow Menu</title>
+		<link rel="stylesheet" type="text/css" href="slideshow-menu.css">
+		
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+		
+		<script type="text/javascript" src="js/slideshow.js"></script>
+
+		<style type="text/css">
+			html {   
+				background: url(img/oprera-house-Wallpaper.jpg) no-repeat center center fixed;   
+				-webkit-background-size: cover;   
+				-moz-background-size: cover;   
+				-o-background-size: cover;   
+				background-size: cover; 
+			}
+		</style>
+		
+		<script type="text/javascript">
+		
+			$(document).ready(function(){
+			
+				//Init slideshow
+				initSlide('slideshow-menu','slideshow-content','slideshow-menu-hover','slideshow-menu-active');
+		
+			});
+			
+		</script>
+		
+		
+	</head>
+	<body>
+	
+		<br /><br />
+		
+		<div class="bar">
+
+			<div align="left" style="position:absolute;">
+				<div class="barTextEnd">Your Company</div>
+			</div>
+			
+			<div align="center">
+				<ul>
+					<li class="slideshow-menu barText">HOME</li>
+					<li class="slideshow-menu barText">ABOUT</li>
+					<li class="slideshow-menu barText">FEATURE</li>
+					<li class="slideshow-menu barText">STORY</li>
+					<li class="slideshow-menu barTextEnd">SIGN IN/UP</li>
+				</ul>
+			</div>
+			
+		</div>
+		
+		<br /><br /><br />
+		
+		<div id="content" style="margin:10px;">
+				
+			<!-- Slideshow -->
+			<div id="slideshow-container">
+			
+				<div class="slideshow-content" align="center">
+					<div id="webTitle">
+					
+						<div class="doubleline"></div>
+							<div style="padding:30px;">
+								<div id="titleHeader">AUGUST 14th,2020</div>
+								<div id="title">Sample</div>
+								<div id="titleFooter">Write Your Feature Here</div>
+							</div>
+						<div class="doubleline"></div>
+					
+					</div>
+				</div>
+							
+				<div class="slideshow-content">
+					<div class="contentBox roundCorner">
+						About...<br />
+					</div>
+				</div>
+							
+				<div class="slideshow-content">
+					<div class="contentBox roundCorner">
+						Feature...<br />
+					</div>
+				</div>
+				
+				<div class="slideshow-content">
+					<div class="contentBox roundCorner">
+						Story...<br />
+					</div>
+				</div>
+				
+				<div class="slideshow-content">
+					<div class="contentBox roundCorner">
+					
+						<div class="loginBox shadow" style="position:absolute;top:50px;left:575px;">
+							<center>
+							
+							<div class="table">
+								<div class="table-row">
+									<div class="table-col">
+										<label>Email&nbsp;&nbsp;</label>
+									</div>
+									<div class="table-col" >
+										<input type="text" id="" />
+									</div>
+								</div>
+								
+								<div class="table-row">
+									<div class="table-col">
+										<label>Password&nbsp;&nbsp;</label>
+									</div>
+									<div class="table-col">
+										<input type="text" id="" />
+									</div>
+								</div>
+								
+								<div class="table-row">
+									<div class="table-col" align="right">
+										<button class="loginBoxButton">Sign Up</button>
+									</div>
+									<div class="table-col" align="right">
+										<button class="loginBoxButton">Sign In</button>
+									</div>
+								</div>
+							</div>
+							
+							
+							</center>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+			
+		<br />
+		
+		<div id="footer" class="bar">
+			<div class="barTextEnd">Contact Information of Your Company</div>
+		</div>
+
+	</body>
+</html>
