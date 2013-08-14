@@ -9,6 +9,10 @@ This is a sample code for website navigation with jQuery slideshow.
 You can modify this sample to meet your needs.
 
 
+## Live Demo
+
+http://mars.twbbs.org/samples/slideshow-menu/
+
 ## How to Use
 
 
